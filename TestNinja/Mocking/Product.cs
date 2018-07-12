@@ -6,7 +6,7 @@
 
         public float GetPrice(Customer customer)
         {
-            if (customer.IsGold)
+            if (customer.IsGold == true)
                 return ListPrice * 0.7f;
 
             return ListPrice;
